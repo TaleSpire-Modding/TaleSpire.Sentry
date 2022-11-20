@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TaleSpire.Sentry</id>
+    <version>1.0.0</version>
+    <title>TaleSpire Sentry</title>
+    <authors>Sentry - HolloFox</authors>
+    <projectUrl>https://github.com/TaleSpire-Modding/TaleSpire.Sentry</projectUrl>
+    <repository type="git" url="https://github.com/TaleSpire-Modding/TaleSpire.Sentry.git" branch="main"/>
+    <owners>Sentry - HolloFox</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains Unity vesion of Sentry used for TaleSpire.</description>
+    <references>
+		<reference file="io.sentry.unity.runtime.dll" />
+		<reference file="Sentry.dll" />
+		<reference file="Sentry.Microsoft.Bcl.AsyncInterfaces.dll" />
+		<reference file="Sentry.System.Buffers.dll" />
+		<reference file="Sentry.System.Collections.Immutable.dll" />
+		<reference file="Sentry.System.Memory.dll" />
+		<reference file="Sentry.System.Numerics.Vectors.dll" />
+		<reference file="Sentry.System.Reflection.Metadata.dll" />
+		<reference file="Sentry.System.Runtime.CompilerServices.Unsafe.dll" />
+		<reference file="Sentry.System.Text.Encodings.Web.dll" />
+		<reference file="Sentry.System.Text.Json.dll" />
+		<reference file="Sentry.System.Threading.Tasks.Extensions.dll" />
+		<reference file="Sentry.Unity.Android.dll" />
+		<reference file="Sentry.Unity.dll" />
+		<reference file="Sentry.Unity.iOS.dll" />
+		<reference file="Sentry.Unity.Native.dll" />
+    </references>
+  </metadata>
+  <files>
+	<file src="io.sentry.unity.runtime.dll" target="lib\" />
+	<file src="Sentry.dll" target="lib\" />
+	<file src="Sentry.Microsoft.Bcl.AsyncInterfaces.dll" target="lib\" />
+	<file src="Sentry.System.Buffers.dll" target="lib\" />
+	<file src="Sentry.System.Collections.Immutable.dll" target="lib\" />
+	<file src="Sentry.System.Memory.dll" target="lib\" />
+	<file src="Sentry.System.Numerics.Vectors.dll" target="lib\" />
+	<file src="Sentry.System.Reflection.Metadata.dll" target="lib\" />
+	<file src="Sentry.System.Runtime.CompilerServices.Unsafe.dll" target="lib\" />
+	<file src="Sentry.System.Text.Encodings.Web.dll" target="lib\" />
+	<file src="Sentry.System.Text.Json.dll" target="lib\" />
+	<file src="Sentry.System.Threading.Tasks.Extensions.dll" target="lib\" />
+	<file src="Sentry.Unity.Android.dll" target="lib\" />
+	<file src="Sentry.Unity.dll" target="lib\" />
+	<file src="Sentry.Unity.iOS.dll" target="lib\" />
+	<file src="Sentry.Unity.Native.dll" target="lib\" />
+  </files>
+</package>

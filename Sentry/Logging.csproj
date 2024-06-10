@@ -30,6 +30,7 @@
   <ItemGroup>
     <PackageReference Include="TaleSpire" Version="1.2.2" />
     <PackageReference Include="Talespire.BepInEx" Version="5.4.22" />
+    <PackageReference Include="TaleSpire.SetInjectionFlagPlugin" Version="2.5.2" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="io.sentry.unity.runtime">
